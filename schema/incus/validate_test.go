@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	simplestreams "github.com/meigma/go-simplestreams"
-	"github.com/meigma/go-simplestreams/schema/incus"
+	simplestreams "github.com/imgoci/go-simplestreams"
+	"github.com/imgoci/go-simplestreams/schema/incus"
 )
 
 func TestValidateRuntimeProductFileAcceptsIncusProfile(t *testing.T) {

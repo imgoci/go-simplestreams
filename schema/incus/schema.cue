@@ -1,8 +1,8 @@
 package incus
 
 import (
-	"github.com/meigma/go-simplestreams/schema"
-	"github.com/meigma/go-simplestreams/schema/linuxcontainers"
+	"github.com/imgoci/go-simplestreams/schema"
+	"github.com/imgoci/go-simplestreams/schema/linuxcontainers"
 )
 
 @go(incus)
@@ -44,7 +44,7 @@ import (
 // Item describes Incus/Linux Containers image artifacts.
 #Item: {
 	ftype!:                          linuxcontainers.#IncusFileType @go(FileType)
-	path!:                           schema.#RelativePath           @go(,type="github.com/meigma/go-simplestreams/schema".RelativePath)
+	path!:                           schema.#RelativePath           @go(,type="github.com/imgoci/go-simplestreams/schema".RelativePath)
 	size!:                           schema.#Size
 	sha256!:                         schema.#Checksum @go(SHA256)
 	delta_base?:                     string           @go(DeltaBase)

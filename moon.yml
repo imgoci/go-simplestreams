@@ -5,9 +5,9 @@ stack: 'backend'
 project:
   title: 'go-simplestreams'
   description: 'Go library for simplestreams protocol metadata.'
-  owner: 'meigma'
+  owner: 'imgoci'
   maintainers:
-    - 'meigma'
+    - 'imgoci'
 
 toolchains:
   default: 'go'

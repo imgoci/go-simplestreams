@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	simplestreams "github.com/meigma/go-simplestreams"
+	simplestreams "github.com/imgoci/go-simplestreams"
 )
 
 // Source opens Simple Streams content from a filesystem root.

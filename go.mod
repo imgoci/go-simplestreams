@@ -1,4 +1,4 @@
-module github.com/meigma/go-simplestreams
+module github.com/imgoci/go-simplestreams
 
 go 1.26.2
 

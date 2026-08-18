@@ -8,9 +8,9 @@ const config: Config = {
   future: {
     v4: true,
   },
-  url: 'https://meigma.github.io',
+  url: 'https://imgoci.github.io',
   baseUrl: '/go-simplestreams/',
-  organizationName: 'meigma',
+  organizationName: 'imgoci',
   projectName: 'go-simplestreams',
   onBrokenLinks: 'throw',
   markdown: {
@@ -31,7 +31,7 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: false,
           breadcrumbs: false,
-          editUrl: 'https://github.com/meigma/go-simplestreams/edit/master/docs/',
+          editUrl: 'https://github.com/imgoci/go-simplestreams/edit/master/docs/',
         },
         blog: false,
         theme: {
@@ -49,7 +49,7 @@ const config: Config = {
       title: 'go-simplestreams',
       items: [
         {
-          href: 'https://github.com/meigma/go-simplestreams',
+          href: 'https://github.com/imgoci/go-simplestreams',
           label: 'GitHub',
           position: 'right',
           className: 'navbar__item--github',
@@ -58,7 +58,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Meigma. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} imgoci. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

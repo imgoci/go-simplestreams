@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	simplestreams "github.com/meigma/go-simplestreams"
+	simplestreams "github.com/imgoci/go-simplestreams"
 )
 
 // Source opens Simple Streams content from an HTTP mirror root.

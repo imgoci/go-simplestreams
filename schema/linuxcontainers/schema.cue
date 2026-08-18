@@ -1,6 +1,6 @@
 package linuxcontainers
 
-import "github.com/meigma/go-simplestreams/schema"
+import "github.com/imgoci/go-simplestreams/schema"
 
 @go(linuxcontainers)
 
@@ -42,7 +42,7 @@ import "github.com/meigma/go-simplestreams/schema"
 // Item describes shared Linux Containers image artifacts.
 #Item: {
 	ftype!:                          #FileType            @go(FileType)
-	path!:                           schema.#RelativePath @go(,type="github.com/meigma/go-simplestreams/schema".RelativePath)
+	path!:                           schema.#RelativePath @go(,type="github.com/imgoci/go-simplestreams/schema".RelativePath)
 	size!:                           schema.#Size
 	sha256!:                         schema.#Checksum @go(SHA256)
 	delta_base?:                     string           @go(DeltaBase)

@@ -3,7 +3,7 @@
 package linuxcontainers
 
 import (
-	"github.com/meigma/go-simplestreams/schema"
+	"github.com/imgoci/go-simplestreams/schema"
 )
 
 // ProductFile is the shared Linux Containers image server profile.

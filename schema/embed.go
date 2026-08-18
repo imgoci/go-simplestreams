@@ -15,7 +15,7 @@ import (
 
 const (
 	// ModulePath is the embedded CUE module path.
-	ModulePath = "github.com/meigma/go-simplestreams/schema@v0"
+	ModulePath = "github.com/imgoci/go-simplestreams/schema@v0"
 
 	embeddedModuleDir = "go-simplestreams-schema-embedded"
 )

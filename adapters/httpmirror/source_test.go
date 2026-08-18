@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	simplestreams "github.com/meigma/go-simplestreams"
-	"github.com/meigma/go-simplestreams/adapters/httpmirror"
+	simplestreams "github.com/imgoci/go-simplestreams"
+	"github.com/imgoci/go-simplestreams/adapters/httpmirror"
 )
 
 func TestSourceOpenReadsFromBaseURL(t *testing.T) {

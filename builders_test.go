@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	simplestreams "github.com/meigma/go-simplestreams"
+	simplestreams "github.com/imgoci/go-simplestreams"
 )
 
 func TestProductTreeBuildersSetNamesAndMapKeys(t *testing.T) {

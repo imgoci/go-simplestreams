@@ -7,8 +7,8 @@ import (
 	"cuelang.org/go/cue"
 	"cuelang.org/go/cue/cuecontext"
 
-	simplestreams "github.com/meigma/go-simplestreams"
-	"github.com/meigma/go-simplestreams/schema"
+	simplestreams "github.com/imgoci/go-simplestreams"
+	"github.com/imgoci/go-simplestreams/schema"
 )
 
 // ValidateRuntimeProductFile validates productFile against the embedded Incus product-file schema.

@@ -11,5 +11,5 @@ description: Go library for simplestreams metadata.
 The public import path is:
 
 ```sh
-go get github.com/meigma/go-simplestreams
+go get github.com/imgoci/go-simplestreams
 ```
