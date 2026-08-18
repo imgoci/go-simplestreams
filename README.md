@@ -6,7 +6,7 @@ It provides protocol types and helpers for building and validating simplestreams
 ## Install
 
 ```sh
-go get github.com/meigma/go-simplestreams
+go get github.com/imgoci/go-simplestreams
 ```
 
 The package name is `simplestreams`.

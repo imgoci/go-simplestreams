@@ -8,9 +8,9 @@ tags:
 project:
   title: 'go-simplestreams schema'
   description: 'CUE schema module and generated Go types for Simple Streams metadata.'
-  owner: 'meigma'
+  owner: 'imgoci'
   maintainers:
-    - 'meigma'
+    - 'imgoci'
 
 toolchains:
   default: 'go'

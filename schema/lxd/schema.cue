@@ -1,8 +1,8 @@
 package lxd
 
 import (
-	"github.com/meigma/go-simplestreams/schema"
-	"github.com/meigma/go-simplestreams/schema/linuxcontainers"
+	"github.com/imgoci/go-simplestreams/schema"
+	"github.com/imgoci/go-simplestreams/schema/linuxcontainers"
 )
 
 @go(lxd)
@@ -43,7 +43,7 @@ import (
 // Item describes Canonical LXD image artifacts.
 #Item: {
 	ftype!:                          linuxcontainers.#LXDFileType @go(FileType)
-	path!:                           schema.#RelativePath         @go(,type="github.com/meigma/go-simplestreams/schema".RelativePath)
+	path!:                           schema.#RelativePath         @go(,type="github.com/imgoci/go-simplestreams/schema".RelativePath)
 	size!:                           schema.#Size
 	sha256!:                         schema.#Checksum @go(SHA256)
 	delta_base?:                     string           @go(DeltaBase)

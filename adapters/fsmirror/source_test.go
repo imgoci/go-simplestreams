@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	simplestreams "github.com/meigma/go-simplestreams"
-	"github.com/meigma/go-simplestreams/adapters/fsmirror"
+	simplestreams "github.com/imgoci/go-simplestreams"
+	"github.com/imgoci/go-simplestreams/adapters/fsmirror"
 )
 
 func TestSourceOpenReadsFromRoot(t *testing.T) {

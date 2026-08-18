@@ -8,9 +8,9 @@ tags:
 project:
   title: 'go-simplestreams docs'
   description: 'Docusaurus documentation site for go-simplestreams.'
-  owner: 'meigma'
+  owner: 'imgoci'
   maintainers:
-    - 'meigma'
+    - 'imgoci'
 
 toolchains:
   default: 'node'

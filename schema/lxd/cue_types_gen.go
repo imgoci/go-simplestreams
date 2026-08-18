@@ -3,8 +3,8 @@
 package lxd
 
 import (
-	"github.com/meigma/go-simplestreams/schema"
-	"github.com/meigma/go-simplestreams/schema/linuxcontainers"
+	"github.com/imgoci/go-simplestreams/schema"
+	"github.com/imgoci/go-simplestreams/schema/linuxcontainers"
 )
 
 // ProductFile is the Canonical LXD image server profile.
