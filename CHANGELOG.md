@@ -2,6 +2,13 @@
 
 ## [0.2.0](https://github.com/imgoci/go-simplestreams/compare/v0.1.0...v0.2.0) (2026-08-18)
 
+The module path moved from `github.com/meigma/go-simplestreams` to
+`github.com/imgoci/go-simplestreams`. Update imports and install this release with:
+
+```sh
+go get github.com/imgoci/go-simplestreams@v0.2.0
+```
+
 
 ### Features
 
